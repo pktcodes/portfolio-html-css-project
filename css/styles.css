@@ -230,6 +230,16 @@ Navbar
     align-items: center;
   }
 }
+/* Fixed Navbar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+}
 /*
 =============== 
 Sidebar
@@ -303,6 +313,10 @@ Sidebar
 Hero
 ===============
 */
+.hero {
+  height: 200vh;
+  background: chartreuse;
+}
 /* underline added to globals */
 
 /*
