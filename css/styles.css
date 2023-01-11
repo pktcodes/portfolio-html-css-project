@@ -165,7 +165,14 @@ p {
   }
 }
 /* added during recording */
-
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: var(--clr-primary-5);
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*
 =============== 
 Navbar
@@ -314,7 +321,30 @@ Hero
 ===============
 */
 /* underline added to globals */
-
+.hero .underline {
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+}
+.hero-img-container {
+  display: none;
+}
+.hero {
+  background: var(--clr-primary-10);
+}
+.hero-center {
+  min-height: calc(100vh - 5rem);
+  display: grid;
+  place-items: center;
+}
+.hero-info h4 {
+  color: var(--clr-grey-5);
+}
+.hero-btn {
+  margin-top: 1.25rem;
+}
+.hero-icons {
+  justify-items: start;
+}
 /*
 =============== 
 About
