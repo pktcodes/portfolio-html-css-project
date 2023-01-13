@@ -358,7 +358,8 @@ Hero
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .hero-img-container::before {
+  .hero-img-container::before,
+  .about-img-container::before {
     content: "";
     border: 0.2rem solid var(--clr-primary-5);
     width: 100%;
@@ -395,6 +396,20 @@ About
 }
 .about-img-container {
   justify-self: center;
+}
+@media screen and (min-width: 992px) {
+  .about-center {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-img-container {
+    position: relative;
+  }
+  .about-img-container::before {
+    left: -2rem;
+  }
+  .about-info {
+    align-self: center;
+  }
 }
 /*
 =============== 
