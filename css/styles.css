@@ -812,6 +812,7 @@ Blog
   -webkit-transition: all 2s linear;
   transition: all 2s linear;
   border-radius: var(--radius);
+  transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   visibility: visible;
 }
