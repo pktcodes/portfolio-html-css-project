@@ -359,6 +359,9 @@ Hero
 .hero-info h4 {
   color: var(--clr-grey-5);
 }
+.hero-info span {
+  text-transform: uppercase;
+}
 .hero-btn {
   margin-top: 1.25rem;
 }
