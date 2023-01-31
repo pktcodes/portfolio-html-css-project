@@ -13,7 +13,7 @@
   - **About** will have an image and some information about the user along with **`About Me`** on click navigates to *About* page.
   - **Services** has been implemented in cards with some information that tell about the user's expertise with the technologies.
   - **Latest Works** shows some of the projects the user has worked on for different clients and on click of each project navigates to *Projects* page.
-  - **Connect** will have the *Address*, *Email*, *Telephone* information, **Video Banner** playing in the background** along with `Contact Me`** on click navigates to     *Contact* page.
+  - **Connect** will have the *Address*, *Email*, *Telephone* information, **Video Banner** playing in the background** along with **`Contact Me`** on click navigates to     *Contact* page.
   - **Skills** tells an idea about the how much the user is proficient working with particular technologies.
   - **Timeline** shows the overall professional working experience of the user during his career.
   - **Blog** shows some of the articles the user blogged with each card having **`Read more`** on hover.
